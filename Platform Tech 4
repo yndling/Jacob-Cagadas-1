@@ -80,7 +80,7 @@ void directory() {
     cout << "Enter the Directory name: ";
     cin >> dir;
 
-    if (_mkdir(dirName.c_str()) == 0) {
+    if (_mkdir(dir.c_str()) == 0) {
         cout << "Directory created successfully." << endl;
     } else {
         cout << "Error creating directory. It may already exist or be invalid." << endl;
